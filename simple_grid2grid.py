@@ -25,8 +25,8 @@ my_test_grid2 = Grid2D(grid_corners2, rows = 4, columns = 4)
 
 
 # Connect to Eva
-host_ip = "http://172.16.172.1"
-token = "75ec3167-ba43-4839-b020-769900b7b247"
+host_ip = "your host"
+token = "your token"
 eva = Eva(host_ip, token)
 
 # Set some default poses and a default orientation
